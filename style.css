@@ -1,0 +1,167 @@
+body 
+{ margin: 0; padding: 0; 
+  font-family: Verdana, sans-serif; 
+  background-color: #ffffff; 
+  color: #222222; }
+
+h1 
+{ font-size: 28px;          
+  color: #000000;            
+  text-align: center;        
+  margin-top: 25px;         
+  margin-bottom: 5px; }
+
+
+h2 
+{ font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px; }
+
+h3 
+{ font-size: 16px;
+  color: #000000;
+  text-decoration: underline; 
+  margin-top: 18px;
+  margin-bottom: 5px; }
+
+
+p 
+{ font-size: 15px;
+  color: #333333;
+  margin-bottom: 10px; }
+
+a 
+{ color: #0096fd;            
+  text-decoration: none; }
+
+table 
+{ width: 100%;              
+  border-collapse: collapse; 
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
+
+th 
+{ background-color: #000000;
+  color: #ffffff;          
+  padding: 8px;               
+  text-align: left;          
+  border: 1px solid #000000; }
+
+td 
+{ padding: 6px 8px;
+  border: 1px solid #000000; 
+  color: #333333; }
+
+ul 
+{ padding-left: 25px;
+  color: #333333; }
+
+li { margin-bottom: 6px;}
+
+img 
+{ max-width: 100%;
+  margin: 0 auto;
+  height: auto; }
+
+#banner 
+{ background-color: #0096fd;
+  text-align: center;
+  padding: 50px 25px; }
+
+#main-content 
+{ max-width: 850px;
+  margin: 0 auto;
+  padding: 20px 25px; }
+
+#footer 
+{ background-color: #000000;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  color: #999999;
+  font-size: 14px; }
+
+.navbar 
+{ display: flex;             
+  justify-content: center;   
+  flex-wrap: wrap;           
+  background-color: #000000;
+  padding: 0; }
+
+.nav-link 
+{ color: #ffffff;             
+  padding: 12px 18px;        
+  text-decoration: none;     
+  font-size: 14px;
+  font-weight: bold; }
+
+.nav-active 
+{ background-color: #000000;
+  color: #ffffff; }
+
+.banner-logo 
+{ display: block;             
+  max-height: 160px;          
+  margin: 0 auto;           
+  margin-bottom: 10px; }
+
+.banner-title 
+{ color: #ffffff;          
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0; }
+
+.banner-subtitle 
+{ color: #ffffff;
+  font-size: 16px;
+    margin: 5px 0 0 0; }
+
+.centered-text { text-align: center; }
+
+.bold { font-weight: bold;}
+
+
+.image-center 
+{ text-align: center;
+  margin: 15px 0; }
+
+
+.star-player 
+{ color: #0096fd;
+  font-weight: bold; }
+
+
+.info-row 
+{ display: flex;              
+  justify-content: center;    
+  gap: 25px;                  
+  margin: 20px 0;
+  text-align: center; }
+
+.info-box 
+{ flex: 1;
+  max-width: 380px; }
+
+.two-column 
+{ display: flex;
+  gap: 30px;
+  justify-content: center; }
+
+.column 
+{ flex: 1;
+  max-width: 400px; }
+
+.uniforms-center {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.uniforms-image 
+{ max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; }
