@@ -228,3 +228,85 @@ img
  
 .quiz-btn:hover 
 { background-color: #0096fd; }
+
+@media (max-width: 768px) 
+
+{ 
+
+.two-column 
+{ flex-direction: column;
+  gap: 10px; }
+ 
+.column 
+{ max-width: 100%; }
+
+table 
+{ display: block;
+overflow-x: auto; }
+
+.banner-logo 
+{ max-height: 120px; }
+
+#main-content 
+{ padding: 15px 15px; }
+
+h1 
+{ font-size: 24px; }
+ 
+h2 
+{ font-size: 18px; }
+
+                       }
+
+@media (max-width: 480px) 
+
+{
+
+.navbar 
+{ flex-direction: column;
+  align-items: center; }
+ 
+.nav-link 
+{ padding: 10px 15px;
+  font-size: 13px;
+  width: 100%;
+  text-align: center; }
+
+h1 
+{ font-size: 20px; }
+ 
+h2 
+{ font-size: 16px; }
+ 
+p 
+{ font-size: 16px; }
+ 
+td 
+{ font-size: 16px; }
+ 
+li 
+{ font-size: 16px; }
+
+#banner 
+{ padding: 25px 10px; }
+ 
+.banner-logo 
+{ max-height: 80px; }
+ 
+.banner-title 
+{ font-size: 20px; }
+ 
+.banner-subtitle 
+{ font-size: 13px; }
+
+img 
+{ max-width: 100%;
+  height: auto; }
+
+ #main-content 
+{ padding: 10px 10px; }
+
+ .three-column 
+{ flex-direction: column; }
+
+}
