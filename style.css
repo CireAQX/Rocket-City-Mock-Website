@@ -252,14 +252,6 @@ h1
 h2 
 { font-size: 18px; }
 
-.image-center img 
-{ max-width: 250px; }
-
-.uniforms-center img 
-{ max-width: 300px; }
-
-
-
                        }
 
 @media (max-width: 480px) 
@@ -292,10 +284,10 @@ li
 { font-size: 16px; }
 
 #banner 
-{ padding: 15px 10px; }
+{ padding: 25px 10px; }
  
 .banner-logo 
-{ max-height: 150px; }
+{ max-height: 80px; }
  
 .banner-title 
 { font-size: 20px; }
@@ -303,17 +295,14 @@ li
 .banner-subtitle 
 { font-size: 13px; }
 
+img 
+{ max-width: 100%;
+  height: auto; }
 
  #main-content 
 { padding: 10px 10px; }
 
  .three-column 
 { flex-direction: column; }
-
-.image-center img 
-{ max-width: 200px; }
-
-.uniforms-center img 
-{ max-width: 250px; }
 
 }
